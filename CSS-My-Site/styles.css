@@ -1,13 +1,28 @@
+
+
+
+.cem-photo{
+    width: 100px;
+    height: 100px;
+}
+
+.comp-photo{
+    width: 100px;
+    height: 100px;
+}
+
+.chilli-photo{
+    width: 100px;
+    height: 100px;
+}
 body  {
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
-    
-    
+    font-family: 'Merriweather', serif; 
 } 
 
 h1 {
-
+    font-size: 5.6em;  
     width: 40%;
     margin: 0 auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -29,15 +44,11 @@ h3 {
 }
 
 .middle-container{
-    width: 200px;
-    height: 200px;
-    background-color: red;
+    
 }
 
 .bottom-container{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+
 }
 
 .top-cloud{
