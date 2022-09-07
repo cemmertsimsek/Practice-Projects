@@ -1,5 +1,22 @@
+.clouds{
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
 
+.top-cloud{
+    position: absolute;
+    right: 30%;
+}
 
+.bottom-cloud{
+    position: absolute;
+    left: 30%;
+}
+
+.mountain{
+   
+}
 
 .cem-photo{
     width: 100px;
@@ -19,20 +36,28 @@ body  {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif; 
+    font-size: 1em;
 } 
 
 h1 {
-    font-size: 5.6em;  
-    width: 40%;
-    margin: 0 auto 0 auto;
+    color: #66BFBF;
+    font-size: 5.625rem;  
     font-family: 'Sacramento', cursive;
+    line-height: 1;
+    margin: 2rem atuo 0 auto;
+    
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 1rem;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,15 +76,4 @@ h3 {
 
 }
 
-.top-cloud{
-    position: absolute;
-    right: 450px;
-    top: 50px;
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 450px;
-    bottom: 300px;
-}
 
