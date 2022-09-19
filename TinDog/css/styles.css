@@ -130,6 +130,10 @@ p{
     padding: 100px;
 }
 
+.pricing-text{
+    text-align: center;
+}
+
 .pricing-column{
     padding: 3% 2%;
     text-align: center;
