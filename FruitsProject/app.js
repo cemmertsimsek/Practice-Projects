@@ -47,7 +47,7 @@ const berry = new Fruit({
   review: "Not great fruit.",
 });
 
-berry.save();
+berry.save(); //
 
 const person = new Person({
   name: "Mert",
