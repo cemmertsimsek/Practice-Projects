@@ -1,27 +1,28 @@
 import React from "react";
 import Card from "./Card";
+import contacts from "../contact";
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
       <Card
-        name="Beyonce"
-        tel="+123 456 789"
-        email="b@beyonce.com"
-        img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
+        name={contacts[0].name}
+        tel={contacts[0].phone}
+        email={contacts[0].email}
+        img={contacts[0].imgURL}
       />
       <Card
-        name="Jack Bauer"
-        tel="+987 654 321"
-        email="jack@nowhere.com"
-        img="https://pbs.twimg.com/profile_images/625247595825246208/X3XLea04_400x400.jpg"
+        name={contacts[1].name}
+        tel={contacts[1].phone}
+        email={contacts[1].email}
+        img={contacts[1].imgURL}
       />
       <Card
-        name="Chuck Norris"
-        tel="+918 372 574"
-        email="gmail@chucknorris.com"
-        img="https://i.pinimg.com/originals/e3/94/47/e39447de921955826b1e498ccf9a39af.png"
+        name={contacts[2].name}
+        tel={contacts[2].phone}
+        email={contacts[2].email}
+        img={contacts[2].imgURL}
       />
     </div>
   );
