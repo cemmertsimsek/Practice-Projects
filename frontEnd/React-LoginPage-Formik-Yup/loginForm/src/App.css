@@ -79,3 +79,16 @@ input.input-error, select.input-error {
 button:disabled{
     opacity: 0.35;
 }
+
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  input[type="checkbox"] {
+    width: fit-content;
+    margin-right: 0.5rem;
+    transform: scale(1.25);
+  }
