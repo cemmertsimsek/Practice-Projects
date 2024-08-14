@@ -51,3 +51,31 @@ input:focus, select:focus{
 input::placeholder, select::placeholder{
     color: #a0aec0;
 }
+
+button{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input.input-error, select.input-error {
+    border-color: red;
+}
+
+.error{
+    color: red;
+    text-align: left;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+button:disabled{
+    opacity: 0.35;
+}
