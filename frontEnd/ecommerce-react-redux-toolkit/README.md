@@ -1,0 +1,1 @@
+npm install react-router-dom react-icons react-paginate react-slick slick-carousel @reduxjs/toolkit react-redux

@@ -38,7 +38,7 @@ const AdvancedForm = () => {
              <option value="green">Green</option>
              <option value="blue">Blue</option>
            </Field> */}
-          {/* --- 3 - prop rendering yapmamak için customInput componenti yaptım. Bence daha basit ve anlaşılır. */}
+          {/* --- 3 - Formik componentleri kullanmak için prop rendering kullanılmalı. Ben burada customInput componenti ile birlikte kullandım. Bence daha basit ve anlaşılır. */}
           {/* --- 4 - customInput componenti sadece Html. Bu yüzden formik form veya formik statelerine veya herhangi bir formik helper'ına ulaşamıyor. Bunun için useField() hookunu kullanacağız.  */}
           <CustomInput
             label="Username"
