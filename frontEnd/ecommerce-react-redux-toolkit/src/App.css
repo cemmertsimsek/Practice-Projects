@@ -62,8 +62,8 @@ header {
   top: -12px;
   right: -12px;
   border-radius: 50%;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
 }
 .cart-icon p {
   font-size: 16px;
@@ -132,9 +132,10 @@ header {
   width: 40%;
 }
 .slider-img img {
-  width: 100%;
+  max-width: 80%;
   position: relative;
-  right: 50%;
+  right: 40%;
+  bottom: 10%;
   scale: 1.4;
 }
 /* Products */
@@ -183,7 +184,7 @@ header {
   cursor: pointer;
 }
 /* Products */
-.product-list{
+.product-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -199,7 +200,7 @@ header {
   background-color: white;
   cursor: pointer;
 }
-.product-card-img{
+.product-card-img {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -211,18 +212,18 @@ header {
   max-height: 400px;
 }
 
-.product-card-desc{
+.product-card-desc {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-.product-card-desc h5{
+.product-card-desc h5 {
   font-size: 16px;
 }
 
 /* Paginate*/
 
-.paginate{
+.paginate {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -233,6 +234,96 @@ header {
   cursor: pointer;
 }
 
+/* Product Detail Page */
+
+.product-detail {
+  display: flex;
+  gap: 40px;
+}
+
+.product-description h4 {
+  font-size: 28px;
+}
+.product-rate {
+  display: inline-block;
+  margin: 16px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.product-description p {
+  width: 80%;
+}
+.count {
+  display: block;
+  color: red;
+  margin-top: 24px;
+}
+.product-price {
+  font-size: 36px;
+  display: inline-block;
+  font-weight: bold;
+}
+.product-count {
+  display: flex;
+}
+.product-count div {
+  font-size: 24px;
+  padding: 2px 8px;
+}
+.product-count div:hover {
+  cursor: pointer;
+}
+.product-counter {
+  text-align: center;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  width: 50px;
+  cursor: default;
+}
+
+/* Cart Page */
+.cart-item {
+  padding: 16px;
+  display: flex;
+  gap: 20px;
+}
+.cart-item-img {
+  width: 200px;
+  height: 200px;
+}
+.cart-item-img img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.cart-item-description {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.cart-item-description span {
+  display: block;
+}
+.cart-item-price{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.cart-item-del-btn{
+  color: white;
+  background-color: red;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.cart-totalAmount{
+  font-size: 36px;
+  text-align: end;
+  font-weight: bold;
+}
 .footer {
   width: 100%;
   color: white;
